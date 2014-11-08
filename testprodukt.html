@@ -21,7 +21,7 @@ xmlDoc=xmlhttp.responseXML;
 x=xmlDoc.getElementsByTagName("CD");
 i=0;
 
-function displayCD()
+function displayART()
 {
 
 document.getElementById("img").src=(x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue);
@@ -33,7 +33,7 @@ document.getElementById("price1").innerHTML=(x[i].getElementsByTagName("PRICE")[
 </script>
 </head>
 
-<body onload="displayCD()">
+<body onload="displayART()">
 
 
 
