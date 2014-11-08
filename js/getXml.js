@@ -12,8 +12,7 @@ xmlDoc=xmlhttp.responseXML;
 
 var x=xmlDoc.getElementsByTagName("CD");
 
-<<<<<<< Updated upstream
-=======
+
 function getideFunction(tilz) 
 {
   for (i=0;i<x.length;i++)
@@ -31,7 +30,7 @@ function getideFunction(tilz)
 
 
 
->>>>>>> Stashed changes
+
 function allFunction() 
 {
   for (i=0;i<x.length;i++)
