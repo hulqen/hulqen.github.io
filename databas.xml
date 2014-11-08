@@ -161,4 +161,164 @@
 		<PRICE>8.90</PRICE>
 		<IMG>http://placekitten.com/g/200/110</IMG>
 	</CD>
+	<CD>
+		<TITLE>Empire Burlesque</TITLE>
+		<CREATOR>Bob Dylan</CREATOR>
+		<AREA>USA</AREA>
+		<COMPANY>Columbia</COMPANY>
+		<PRICE>10.90</PRICE>
+		<IMG>http://placekitten.com/g/200/300</IMG>
+	</CD>
+	<CD>
+		<TITLE>Hide your heart</TITLE>
+		<CREATOR>Bonnie Tyler</CREATOR>
+		<AREA>UK</AREA>
+		<COMPANY>CBS Records</COMPANY>
+		<PRICE>9.90</PRICE>
+		<IMG>http://placekitten.com/g/200/290</IMG>
+	</CD>
+	<CD>
+		<TITLE>Greatest Hits</TITLE>
+		<CREATOR>Dolly Parton</CREATOR>
+		<AREA>USA</AREA>
+		<COMPANY>RCA</COMPANY>
+		<PRICE>9.90</PRICE>
+		<IMG>http://placekitten.com/g/200/280</IMG>
+	</CD>
+	<CD>
+		<TITLE>Still got the blues</TITLE>
+		<CREATOR>Gary Moore</CREATOR>
+		<AREA>UK</AREA>
+		<COMPANY>Virgin records</COMPANY>
+		<PRICE>10.20</PRICE>
+		<IMG>http://placekitten.com/g/200/270</IMG>
+	</CD>
+	<CD>
+		<TITLE>Eros</TITLE>
+		<CREATOR>Eros Ramazzotti</CREATOR>
+		<AREA>EU</AREA>
+		<COMPANY>BMG</COMPANY>
+		<PRICE>9.90</PRICE>
+		<IMG>http://placekitten.com/g/200/260</IMG>
+	</CD>
+	<CD>
+		<TITLE>One night only</TITLE>
+		<CREATOR>Bee Gees</CREATOR>
+		<AREA>UK</AREA>
+		<COMPANY>Polydor</COMPANY>
+		<PRICE>10.90</PRICE>
+		<IMG>http://placekitten.com/g/200/250</IMG>
+	</CD>
+	<CD>
+		<TITLE>Sylvias Mother</TITLE>
+		<CREATOR>Dr.Hook</CREATOR>
+		<AREA>UK</AREA>
+		<COMPANY>CBS</COMPANY>
+		<PRICE>8.10</PRICE>
+		<IMG>http://placekitten.com/g/200/240</IMG>
+	</CD>
+	<CD>
+		<TITLE>Maggie May</TITLE>
+		<CREATOR>Rod Stewart</CREATOR>
+		<AREA>UK</AREA>
+		<COMPANY>Pickwick</COMPANY>
+		<PRICE>8.50</PRICE>
+		<IMG>http://placekitten.com/g/200/230</IMG>
+	</CD>
+	<CD>
+		<TITLE>Romanza</TITLE>
+		<CREATOR>Andrea Bocelli</CREATOR>
+		<AREA>EU</AREA>
+		<COMPANY>Polydor</COMPANY>
+		<PRICE>10.80</PRICE>
+		<IMG>http://placekitten.com/g/200/220</IMG>
+	</CD>
+	<CD>
+		<TITLE>When a man loves a woman</TITLE>
+		<CREATOR>Percy Sledge</CREATOR>
+		<AREA>USA</AREA>
+		<COMPANY>Atlantic</COMPANY>
+		<PRICE>8.70</PRICE>
+		<IMG>http://placekitten.com/g/200/210</IMG>
+	</CD>
+	<CD>
+		<TITLE>Black angel</TITLE>
+		<CREATOR>Savage Rose</CREATOR>
+		<AREA>EU</AREA>
+		<COMPANY>Mega</COMPANY>
+		<PRICE>10.90</PRICE>
+		<IMG>http://placekitten.com/g/200/200</IMG>
+	</CD>
+	<CD>
+		<TITLE>1999 Grammy Nominees</TITLE>
+		<CREATOR>Many</CREATOR>
+		<AREA>USA</AREA>
+		<COMPANY>Grammy</COMPANY>
+		<PRICE>10.20</PRICE>
+		<IMG>http://placekitten.com/g/200/190</IMG>
+	</CD>
+	<CD>
+		<TITLE>For the good times</TITLE>
+		<CREATOR>Kenny Rogers</CREATOR>
+		<AREA>UK</AREA>
+		<COMPANY>Mucik Master</COMPANY>
+		<PRICE>8.70</PRICE>
+		<IMG>http://placekitten.com/g/200/180</IMG>
+	</CD>
+	<CD>
+		<TITLE>Big Willie style</TITLE>
+		<CREATOR>Will Smith</CREATOR>
+		<AREA>USA</AREA>
+		<COMPANY>Columbia</COMPANY>
+		<PRICE>9.90</PRICE>
+		<IMG>http://placekitten.com/g/200/170</IMG>
+	</CD>
+	<CD>
+		<TITLE>Tupelo Honey</TITLE>
+		<CREATOR>Van Morrison</CREATOR>
+		<AREA>UK</AREA>
+		<COMPANY>Polydor</COMPANY>
+		<PRICE>8.20</PRICE>
+		<IMG>http://placekitten.com/g/200/160</IMG>
+	</CD>
+	<CD>
+		<TITLE>Soulsville</TITLE>
+		<CREATOR>Jorn Hoel</CREATOR>
+		<AREA>Norway</AREA>
+		<COMPANY>WEA</COMPANY>
+		<PRICE>7.90</PRICE>
+		<IMG>http://placekitten.com/g/200/150</IMG>
+	</CD>
+	<CD>
+		<TITLE>The very best of</TITLE>
+		<CREATOR>Cat Stevens</CREATOR>
+		<AREA>UK</AREA>
+		<COMPANY>Island</COMPANY>
+		<PRICE>8.90</PRICE>
+		<IMG>http://placekitten.com/g/200/140</IMG>
+	</CD>
+	<CD>
+		<TITLE>Stop</TITLE>
+		<CREATOR>Sam Brown</CREATOR>
+		<AREA>UK</AREA>
+		<COMPANY>A and M</COMPANY>
+		<PRICE>8.90</PRICE>
+		<IMG>http://placekitten.com/g/200/130</IMG>
+	</CD>
+	<CD>
+		<TITLE>Bridge of Spies</TITLE>
+		<CREATOR>T'Pau</CREATOR>
+		<AREA>UK</AREA>
+		<COMPANY>Siren</COMPANY>
+		<PRICE>7.90</PRICE>
+		<IMG>http://placekitten.com/g/200/120</IMG>
+	</CD>
+	<CD>
+		<TITLE>Private Dancer</TITLE>
+		<CREATOR>Tina Turner</CREATOR>
+		<AREA>UK</AREA>
+		<COMPANY>Capitol</COMPANY>
+		<PRICE>8.90</PRICE>
+		<IMG>http://placekitten.com/g/200/110</IMG>
+	</CD>
 </CATALOG>
