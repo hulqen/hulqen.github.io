@@ -24,7 +24,8 @@ artist=(x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue);
 title=(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
 year=(x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue);
 txt="Artist: " + artist + "<br>Title: " + title + "<br>Year: "+ year;
-<img src="year">
+
+document.getElementById("img").src=year;
 document.getElementById("showCD").innerHTML=txt;
 }
 </script>
@@ -32,6 +33,7 @@ document.getElementById("showCD").innerHTML=txt;
 <body onload="displayCD()">
 
 <div id='showCD'></div>
+<img id='img'>
 
 </body>
 </html>
