@@ -114,6 +114,8 @@ function priceFunction(i)
 function tagFunction(i)
 {
 	document.write(x[i].getElementsByTagName("TAG1")[0].childNodes[0].nodeValue);
+	document.write(x[i].getElementsByTagName("TAG2")[0].childNodes[0].nodeValue);
+	document.write(x[i].getElementsByTagName("TAG3")[0].childNodes[0].nodeValue);
 }
 
 
