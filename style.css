@@ -32,10 +32,13 @@
     /*margin: 0;*/
     padding: 0;
 	overflow:hidden;
+	
 }
 #menu li {
 	 float:left;
 	 font-family: 'Oswald', sans-serif;
+	 font-size:25px;
+	 height:100%;
 }
 
 #menu a:link, a:visited {
@@ -43,6 +46,7 @@
     width: 100%;
 	height: 25px;
     font-weight: bold;
+	
     color: #FFF;
     background-color: #0C3;
     text-align: center;
