@@ -10,10 +10,7 @@ xmlhttp.open("GET","databas.xml",false);
 xmlhttp.send();
 xmlDoc=xmlhttp.responseXML; 
 
-
 var x=xmlDoc.getElementsByTagName("CD");
-
-
 
 function allFunction() 
 {
@@ -33,10 +30,6 @@ function allFunction()
   }
 }
 
-
-
-
-
 function oneElemetFunction(i) 
 {
   document.write('<div id="productBox">');
@@ -51,7 +44,6 @@ function oneElemetFunction(i)
     document.write("</div>");
   document.write("</div>");
 }
-
 
 function loopElemetinlistFunction() 
 {
@@ -117,6 +109,11 @@ function creatorFunction(i)
 function priceFunction(i) 
 {
   document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+}
+
+function tagFunction(i)
+{
+	document.write(x[i].getElementsByTagName("TAG1")[0].childNodes[0].nodeValue);
 }
 
 
