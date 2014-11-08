@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse:collapse;
-}
-th, td {
-    padding: 5px;
-}
-</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="product.css" />
 </head>
 <body>
 
@@ -31,10 +25,11 @@ i=0
 document.write("<table><tr><th>Artist</th><th>Title</th></tr>");
 var x=xmlDoc.getElementsByTagName("CD");
 
-
-
-document.write("</table>");
+document.write("<div id='productPicture'><img src='");
+document.write(x[i].getElementsByTagName("IMG")[0].childNodes[0].node);
+document.write("'/></div>");
 </script>
+
 
 </body>
 </html>
