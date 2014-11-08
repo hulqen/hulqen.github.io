@@ -54,11 +54,28 @@ function oneElemetFunction(i)
 
 
 
+function imgFunction(i) 
+{
+  document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
+}
 
 
+function titelFunction(i) 
+{
+  document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"<br>");
+}
 
 
+function creatorFunction(i) 
+{
+  document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue+"<br>");
+}
 
+
+function priceFunction(i) 
+{
+  document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+}
 
 
 
