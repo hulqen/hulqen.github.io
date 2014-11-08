@@ -29,9 +29,9 @@ img=(x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue);
 // txt="Creator: " + creator + "<br>Title: " + title + "<br>Price: " + price;
 
 document.getElementById("img").src=img;
-document.getElementById("title").src=title;
-document.getElementById("creator").src=creator;
-document.getElementById("price").src=price;
+document.getElementById("title").innerHTML=title;
+document.getElementById("creator").innerHTML=creator;
+document.getElementById("price").innerHTML=price;
 //document.getElementById("showCD").innerHTML=txt;
 }
 </script>
