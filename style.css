@@ -16,6 +16,10 @@
 	width: 50%;
 }
 
+.header td {
+	 height: 50;
+}
+
 #descriptionContainer {
 }
 
@@ -31,6 +35,7 @@
 }
 #menu li {
 	 float:left;
+	 font-family: 'Oswald', sans-serif;
 }
 
 #menu a:link, a:visited {
