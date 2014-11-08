@@ -4,6 +4,7 @@
 
 .construct{
 	border: 1px solid black;
+	background-color:#FFF;
 	width: 80%;
 	height: 800px;
 	/*border-collapse:collapse;*/
@@ -15,7 +16,7 @@
 	width: 50%;
 }
 
-#container {
+#descriptionContainer {
 }
 
 #menu ul {

@@ -7,7 +7,33 @@
     <link rel="stylesheet" type="text/css" href="reset.css" />
   </head>
   <body>
-    <div class="bg-images">
+
+
+<script>
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","databas.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+var x=xmlDoc.getElementsByTagName("CD");
+
+document.write('<div class="bg-images">');
+for (i=0;i<x.length;i++)
+  { 
+    document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
+  }
+document.write("</div>");
+</script>
+
+
+    <!-- <div class="bg-images">
       <img src="http://placekitten.com/g/200/200">
       <img src="http://placekitten.com/g/120/200">
       <img src="http://placekitten.com/g/150/200">
@@ -37,7 +63,7 @@
       <img src="http://placekitten.com/g/250/200">
       <img src="http://placekitten.com/g/280/200">
       <img src="http://placekitten.com/g/260/200">
-    </div>
+    </div> -->
     <div class="search-box">
       <form>
         <input class="search" type="text" placeholder="Sök...">
