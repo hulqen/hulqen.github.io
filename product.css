@@ -5,7 +5,18 @@
 	border-style: solid;
 	border:thin;
 	border-color:#000;
-	height: 400px;
-	width: 250;
+	height: 300px;
+	width: 200px;
+	padding: 5px;
+}
+
+#productPicture {
+	width: auto;
+	height: 70%;
+}
+
+#productDescription {
+	width:auto;
+	height: 30%;
 }
 
