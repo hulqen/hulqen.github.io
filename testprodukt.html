@@ -24,10 +24,26 @@ i=0;
 function displayART()
 {
 
-document.getElementById("img").src=(x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue);
-document.getElementById("title").innerHTML=(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
-document.getElementById("creator1").innerHTML=(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue);
-document.getElementById("price1").innerHTML=(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+// document.getElementById("img").src=(x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue);
+// pic=(x[i].getElementsByTagName("IMG")[0].childNodes[0].node
+
+// document.getElementById("title").innerHTML=(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
+// document.getElementById("creator1").innerHTML=(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue);
+// document.getElementById("price1").innerHTML=(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+
+
+
+
+document.write("<div id='productPicture'><img src='");
+document.write(x[i].getElementsByTagName("IMG")[0].childNodes[0].node);
+document.write("'/></div>");
+// document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
+// document.write("</td></tr>");
+
+
+// txt = "<div id="productPicture"><img src='"+pic+"'></div>";
+
+// document.getElementById("produkt").innerHTML=txt;
 
 }
 </script>
@@ -36,18 +52,16 @@ document.getElementById("price1").innerHTML=(x[i].getElementsByTagName("PRICE")[
 <body onload="displayART()">
 
 
-
+<div id='produkt'></div>
 
 <div id="productBox">
 	<div id="productPicture">
     <!-- <img src="http://placekitten.com/g/300/500" /> -->
-    <img id='img'>
+    <!-- <img id='img'> -->
     </div>
     
     <div id="productDescription">
-    <p id='title'></p>	
-    <p id='creator1'></p>
-	<p id='price1'></p>
+
     Här ska produktbeskrivningen vara... Typ :D
     </div>
 </div>
