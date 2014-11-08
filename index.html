@@ -21,7 +21,7 @@ i=0;
 function displayCD()
 {
 
-title=(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
+// title=(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
 creator=(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue);
 price=(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
 img=(x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue);
@@ -29,7 +29,7 @@ img=(x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue);
 // txt="Creator: " + creator + "<br>Title: " + title + "<br>Price: " + price;
 
 document.getElementById("img").src=img;
-document.getElementById("title1").innerHTML=title;
+document.getElementById("title").innerHTML=(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
 document.getElementById("creator1").innerHTML=creator;
 document.getElementById("price1").innerHTML=price;
 //document.getElementById("showCD").innerHTML=txt;
@@ -39,7 +39,7 @@ document.getElementById("price1").innerHTML=price;
 <body onload="displayCD()">
 
 <img id='img'>
-<div id='title1'></div>
+<div id='title'></div>
 <div id='creator1'></div>
 <div id='price1'></div>
 <!-- <div id='showCD'></div> -->
