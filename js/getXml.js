@@ -12,6 +12,26 @@ xmlDoc=xmlhttp.responseXML;
 
 var x=xmlDoc.getElementsByTagName("CD");
 
+<<<<<<< Updated upstream
+=======
+function getideFunction(tilz) 
+{
+  for (i=0;i<x.length;i++)
+  { 
+    if(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue == tilz)
+    {
+      document.write('<p>Found at = '+i+'</p>');
+    }else{
+      document.write('<p>Did not found! Try again!</p>');
+      // document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
+    }
+    
+  }
+}
+
+
+
+>>>>>>> Stashed changes
 function allFunction() 
 {
   for (i=0;i<x.length;i++)

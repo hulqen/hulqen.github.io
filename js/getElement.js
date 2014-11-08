@@ -1,13 +1,7 @@
-function getideFunction(title) 
+function getideFunction() 
 {
 	xmlDoc=loadXMLDoc("databas.xml");
 
-
-
-	x=xmlDoc.getElementsByTagName("title")[0].childNodes[0];
-	x.nodeValue="Easy Cooking";
-
-	x=xmlDoc.getElementsByTagName("title")[0].childNodes[0];
-	txt=x.nodeValue;
-	document.write(txt);
+	x=xmlDoc.getElementsByTagName("Empire Burlesque");
+	document.write(x.tagName);
 }
