@@ -1,5 +1,6 @@
 body {
     overflow: hidden;
+    padding-top: 60px;
 }
 
 *:focus {
@@ -7,9 +8,10 @@ body {
 }
 
 .header {
-  position: absolute;
+  /*position: absolute;*/
   height: 60px;
   background-color: white;
+  border-bottom: 10px solid white;
   width: 100%;
   z-index: 10000;
 }
@@ -26,27 +28,28 @@ body {
 }
 
 .login {
-  border-radius: 40px;
+  border-radius: 4px;
   position: relative;
-  width: 100px;
-  height: 54px;
+  width: 80px;
+  height: 44px;
   /*right: 0;*/
   float: right;
-  top: 3px;
-  right: 3px;
+  top: 10px;
+  right: 15px;
   background-color: grey;
+  /*background: -webkit-linear-gradient(grey, lightgray);*/
 }
 
 .login-text {
   position: relative;
   left: 50%;
-  margin-left: -35px;
+  margin-left: -31px;
   top: 50%;
-  margin-top: -12px;
-  font-size: 25px;
+  margin-top: -10px;
+  font-size: 20px;
   font-style: bold;
-  font-family: helvetica, arial, sans-serif;
-  color: lightgray;
+  font-family:  arial, sans-serif;
+  color: white;
   /*vertical-align: middle;*/
   text-transform: uppercase;
 }
