@@ -12,7 +12,10 @@
 
 #productPicture {
 	width: auto;
-	height: 70%;
+}
+
+#productPicture img {
+	height: auto;
 }
 
 #productDescription {
