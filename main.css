@@ -1,11 +1,15 @@
 body {
+<<<<<<< Updated upstream
     /*overflow: hidden;*/
     padding-top: 60px;
     /*overflow: hidden;*/
+=======
+  padding-top: 60px;
+>>>>>>> Stashed changes
 }
 
 *:focus {
-    outline: 0;
+  outline: 0;
 }
 
 .header {
@@ -62,6 +66,13 @@ body {
   font-size: 30px;
   top: 50%;
   margin-top: -10px;
+}
+
+.wrapper {
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 
 .bg-images {
