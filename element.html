@@ -26,15 +26,15 @@ i=0
 var x=xmlDoc.getElementsByTagName("CD");
 
 document.write('<div id="productBox">');
-document.write('<div id="productPicture">');
-document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
-document.write("</div>");
-document.write("</div>");
+  document.write('<div id="productPicture">');
+    document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
+  document.write("</div>");
 
-document.write('<div id="productDescription">');
-document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
-document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue);
-document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+  document.write('<div id="productDescription">');
+    document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"<br>");
+    document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue+"<br>");
+    document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+  document.write("</div>");
 document.write("</div>");
 </script>
 
