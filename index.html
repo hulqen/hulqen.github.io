@@ -22,16 +22,16 @@ function displayCD()
 {
 
 // title=(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
-creator=(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue);
-price=(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
-img=(x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue);
+// creator=(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue);
+// price=(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+// img=(x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue);
 
 // txt="Creator: " + creator + "<br>Title: " + title + "<br>Price: " + price;
 
-document.getElementById("img").src=img;
+document.getElementById("img").src=(x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue);
 document.getElementById("title").innerHTML=(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
-document.getElementById("creator1").innerHTML=creator;
-document.getElementById("price1").innerHTML=price;
+document.getElementById("creator1").innerHTML=(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue);
+document.getElementById("price1").innerHTML=(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
 //document.getElementById("showCD").innerHTML=txt;
 }
 </script>
