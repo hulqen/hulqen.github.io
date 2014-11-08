@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+#productBox {
+	border:thin;
+	border-color:#000;
+	height: 400px;
+	width: 250;
+}
+
