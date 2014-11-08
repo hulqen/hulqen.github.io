@@ -62,13 +62,13 @@ function imgFunction(i)
 
 function titelFunction(i) 
 {
-  document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"<br>");
+  document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
 }
 
 
 function creatorFunction(i) 
 {
-  document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue+"<br>");
+  document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue);
 }
 
 
