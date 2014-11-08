@@ -4,14 +4,15 @@
 
 .construct{
 	border: 1px solid black;
-	width: 100%;
-	height: 1000px;
+	width: 80%;
+	height: 800px;
 	/*border-collapse:collapse;*/
 }
 
 .construct td {
-	valign: top;
+	vertical-align:top;
 	panning: 5px;
+	width: 50%;
 }
 
 #container {
@@ -19,7 +20,7 @@
 
 #menu ul {
 	list-style-type: none;
-    margin: 0;
+    /*margin: 0;*/
     padding: 0;
 	overflow:hidden;
 }
