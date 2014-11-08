@@ -29,6 +29,9 @@ img=(x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue);
 txt="Creator: " + creator + "<br>Title: " + title + "<br>Price: " + price;
 
 document.getElementById("img").src=img;
+document.getElementById("title").src=title;
+document.getElementById("creator").src=creator;
+document.getElementById("price").src=price;
 document.getElementById("showCD").innerHTML=txt;
 }
 </script>
@@ -36,6 +39,9 @@ document.getElementById("showCD").innerHTML=txt;
 <body onload="displayCD()">
 
 <img id='img'>
+<p id='title'></p>
+<p id='creator'></p>
+<p id='price'></p>
 <div id='showCD'></div>
 
 
