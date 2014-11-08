@@ -73,9 +73,9 @@ function loopElemetinlistFunction()
   }
 }
 
-function loopNumElemetinlistFunction(j) 
+function loopNumElemetinlistFunction(k,j) 
 {
-  for (i=0;i<j;i++)
+  for (i=k;i<j;i++)
     { 
     document.write("<li>");
     document.write('<div id="productBox">');
