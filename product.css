@@ -2,6 +2,7 @@
 /* CSS Document */
 
 #productBox {
+	border-style: solid;
 	border:thin;
 	border-color:#000;
 	height: 400px;
