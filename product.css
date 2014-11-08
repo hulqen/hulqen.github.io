@@ -4,14 +4,15 @@
 #productBox {
 	border-style: solid;
 	border:thin;
-	border-color:#000;
-	height: 300px;
-	width: 200px;
+	border-color:#F00;
+	height: 500px;
+	width: 300px;
 	padding: 5px;
 }
 
 #productPicture {
 	width: auto;
+	height:70%;
 }
 
 #productPicture img {
