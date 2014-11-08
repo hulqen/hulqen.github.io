@@ -8,6 +8,9 @@
 		<COMPANY>Columbia</COMPANY>
 		<PRICE>10.90</PRICE>
 		<IMG>http://placekitten.com/g/250/300</IMG>
+		<TAG1>Cat</TAG1>
+		<TAG2>Cute</TAG2>
+		<TAG3>Kitteh</TAG3>
 	</CD>
 	<CD>
 		<TITLE>Hide your heart</TITLE>
@@ -16,6 +19,9 @@
 		<COMPANY>CBS Records</COMPANY>
 		<PRICE>9.90</PRICE>
 		<IMG>http://placekitten.com/g/200/220</IMG>
+		<TAG1>Gato</TAG1>
+		<TAG2>Gatti</TAG2>
+		<TAG3>OLW</TAG3>
 	</CD>
 	<CD>
 		<TITLE>Greatest Hits</TITLE>
