@@ -1,4 +1,4 @@
-function imgFunction(title) 
+function getideFunction(title) 
 {
 	xmlDoc=loadXMLDoc("databas.xml");
 
