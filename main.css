@@ -6,6 +6,51 @@ body {
     outline: 0;
 }
 
+.header {
+  position: absolute;
+  height: 60px;
+  background-color: white;
+  width: 100%;
+  z-index: 10000;
+}
+
+.logo {
+  float: left;
+  width: 100px;
+  height: 100%;
+  /*border-top-right-radius: 10px;*/
+  /*border-bottom-right-radius: 10px;*/
+  /*background-color: lightgreen; */
+  background-image: url("cat2.png");
+  background-repeat: no-repeat;
+}
+
+.login {
+  border-radius: 40px;
+  position: relative;
+  width: 100px;
+  height: 54px;
+  /*right: 0;*/
+  float: right;
+  top: 3px;
+  right: 3px;
+  background-color: grey;
+}
+
+.login-text {
+  position: relative;
+  left: 50%;
+  margin-left: -35px;
+  top: 50%;
+  margin-top: -12px;
+  font-size: 25px;
+  font-style: bold;
+  font-family: helvetica, arial, sans-serif;
+  color: lightgray;
+  /*vertical-align: middle;*/
+  text-transform: uppercase;
+}
+
 .search-box {
   position: absolute;
   margin-left: 50%;
