@@ -13,6 +13,7 @@ xmlDoc=xmlhttp.responseXML;
 var x=xmlDoc.getElementsByTagName("CD");
 
 
+
 function getideFunction(tilz) 
 {
   for (i=0;i<x.length;i++)
@@ -150,7 +151,10 @@ function searchXML(input)
 function tagFunction(i)
 {
 	document.write('<div id="tags">');
-	document.write(x[i].getElementsByTagName("TAG")[0].childNodes[0].nodeValue);
+	for(var z=0;z<=x.length;z++)
+	{
+	document.write(x[i].getElementsByTagName("TAG")[0].childNodes[z].nodeValue);
+	}
 	document.write("</div>");
 }
 
