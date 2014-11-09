@@ -66,8 +66,6 @@ function getTag()
   }
 }
 
-
-
 function minMaxList() 
 {
   i=0;
@@ -92,7 +90,6 @@ function getImg(i)
 {
   document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
 }
-
 
 function getTitel(i) 
 {
