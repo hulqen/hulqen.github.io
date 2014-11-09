@@ -1,3 +1,13 @@
+$(document).ready(function() {
+  $("#search-button").click(function(){
+    var input = $("#search").val();
+    // console.log(input);
+
+    if (!(input == null) || !(input == "")){
+      searchXML(input);
+    }
+  });
+});
 //Global code for function
 if (window.XMLHttpRequest)
   {// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -13,14 +23,6 @@ xmlDoc=xmlhttp.responseXML;
 
 var x=xmlDoc.getElementsByTagName("CD");
 
-$("#search-button").click(function(){
-  var input = $("#search").val();
-  // console.log(input);
-
-  if (!(input == null) || !(input == "")){
-    searchXML(input);
-  }
-});
 
 function loopElementInlist() 
 {
