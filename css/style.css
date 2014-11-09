@@ -85,7 +85,7 @@
 	font-family: 'Kreon', serif;
 }
 
-#modal_trigger {margin:10px auto; width:50px; display:block;}
+#modal_trigger {margin:5px auto; width:30px;}
 
 .btn {padding:10px 20px; background: #F4F4F2;}
 .btn_red {background: #ED6347; color: #FFF;}
