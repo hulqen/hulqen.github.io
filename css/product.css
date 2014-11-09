@@ -19,8 +19,13 @@
 #productPicture img {
 	height:70%;
 	width: 70%;
-
 }
+
+#thumbnailPicture {
+	height:100%;
+	width: 100%;
+}
+
 #productDescription{
 	width: auto;	
 }
