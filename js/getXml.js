@@ -29,7 +29,22 @@ function getideFunction(tilz)
   }
 }
 
+v=xmlDoc.documentElement;
+y=v.childNodes;
 
+function gettagFunction() 
+{
+  
+  for (i=0;i<v.length;i++)
+  { 
+    for (z=0;z<y[i].childNodes.length;z++)
+  {
+    document.write('<p>Found at = '+i+'</p>');
+    document.write(y[i].childNodes[z].nodeName);
+    }   
+ }
+  
+}
 
 
 function allFunction() 
@@ -45,7 +60,6 @@ function allFunction()
         document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"<br>");
         document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue+"<br>");
         document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
-        document.write("<p>"+i+"</p>");
       document.write("</div>");
     document.write("</div>");
   }
@@ -62,6 +76,7 @@ function oneElemetFunction(i)
       document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"<br>");
       document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue+"<br>");
       document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+      document.write("<p>"+i+"</p>");
     document.write("</div>");
   document.write("</div>");
 }
@@ -80,6 +95,7 @@ function loopElemetinlistFunction()
         document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"<br>");
         document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue+"<br>");
         document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+        document.write("<p>"+i+"</p>");
       document.write("</div>");
     document.write("</div>");
     document.write("</li>");
