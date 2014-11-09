@@ -57,13 +57,6 @@
 	background-color:#666;
 }
 
-
-
-
-
-
-
-
 #lean_overlay {
     position: fixed;
     z-index:100;
@@ -85,7 +78,7 @@
 	font-family: 'Kreon', serif;
 }
 
-#modal_trigger {margin:10px auto; width:20px; padding:10px; display:block;}
+/*#modal_trigger {margin:10px auto; width:20px; padding:10px; display:block;}*/
 
 .btn {padding:10px 20px; background: #bdbdbd;}
 .btn_red {background: #ED6347; color: #FFF;}
