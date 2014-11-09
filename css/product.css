@@ -12,13 +12,13 @@
 }
 
 #productPicture {
-	width: 70%;
-	height: 70%;
+	width: auto;
+	height: auto;
 }
 
 #productPicture img {
-	height:100%;
-	width: 100%;
+	height:90%;
+	width: 90%;
 
 }
 #productDescription{
