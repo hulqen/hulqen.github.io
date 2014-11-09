@@ -13,8 +13,6 @@ xmlDoc=xmlhttp.responseXML;
 
 var x=xmlDoc.getElementsByTagName("CD");
 
-
-
 function getideFunction(tilz) 
 {
   for (i=0;i<x.length;i++)
@@ -26,14 +24,11 @@ function getideFunction(tilz)
       document.write('<p>Did not found! Try again!</p>');
       // document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
     }
-    
   }
 }
 
 v=xmlDoc.documentElement;
 y=v.childNodes;
-
-
 
 function gettagFunction() 
 {
