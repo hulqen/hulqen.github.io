@@ -146,6 +146,11 @@ function priceFunction(i)
   document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
 }
 
+function getDescription(i)
+{
+	document.write(x[i].getElementsByTagName("DESCRIPTION")[0].childNodes[0].nodeValue)
+}
+
 function searchXML(input)
 {
   size = input.length;
