@@ -2,6 +2,7 @@
 /* CSS Document */
 
 #productBox {
+	border-radius: 17px;
 	border-style: solid;
 	border-width: 1px;
 	border-color:#CCC;
@@ -12,6 +13,7 @@
 }
 
 #productBoxThumb {
+	border-radius: 17px;
 	border-style: solid;
 	border-width: 1px;
 	border-color:#CCC;
@@ -27,11 +29,14 @@
 }
 
 #productPicture img {
+	border-radius: 12px;
 	height:auto;
 	width: 100%;
 }
 
 #thumbnailPicture img {
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
 	height: 100%;
 	width: 100%;
 }
