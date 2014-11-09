@@ -163,9 +163,8 @@ body {
   border-radius: 10px;
 }
 
-form {
+.search-form {
   width: 500px;
-  margin: 50px auto;
 }
 
 .search {

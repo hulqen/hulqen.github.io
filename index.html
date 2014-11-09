@@ -27,7 +27,7 @@
       <div class="bg-images">
       </div>
       <div class="search-box">
-        <form>
+        <form class="search-form">
           <input id="search" class="search" type="text" placeholder="Sök...">
           <input id="search-button" class="button" type="button" value="Sök">
         </form>
@@ -40,14 +40,14 @@
     var column_count = Math.ceil(w / 200);
     $(".bg-images").css("-webkit-column-count", column_count.toString());
 
-    $("#search-button").click(function(){
-      var input = $("#search").val();
-      // console.log(input);
+    // $("#search-button").click(function(){
+    //   var input = $("#search").val();
+    //   // console.log(input);
 
-      if (!(input == null) || !(input == "")){
-        searchXML(input);
-      }
-    });
+    //   if (!(input == null) || !(input == "")){
+    //     searchXML(input);
+    //   }
+    // });
 
     $(".surprise").click(function(){
       document.cookie = Math.floor((Math.random() * 26) + 1);
