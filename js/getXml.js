@@ -86,7 +86,7 @@ function loopElemetinlistFunction()
     document.write("<li>");
     document.write('<div id="productBox">');
       document.write('<div id="productPicture">');
-        document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
+        document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'" alt="'+i+'">');
       document.write("</div>");
 
       document.write('<div id="productDescription">');
