@@ -66,9 +66,12 @@ function getTag()
   }
 }
 
+
+
 function minMaxList() 
 {
-  i=0;
+  for (i=0;i<4;i++)
+    { 
     document.write("<li class='productList'>");
     document.write('<div id="productBox">');
       document.write('<div id="productPicture">');
@@ -82,7 +85,7 @@ function minMaxList()
       document.write("</div>");
     document.write("</div>");
     document.write("</li>");
-  
+  }
 }
 
 
@@ -90,6 +93,7 @@ function getImg(i)
 {
   document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
 }
+
 
 function getTitel(i) 
 {
