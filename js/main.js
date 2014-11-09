@@ -8,6 +8,7 @@ $(document).ready(function() {
     }
   });
 });
+
 //Global code for function
 if (window.XMLHttpRequest)
   {// code for IE7+, Firefox, Chrome, Opera, Safari
