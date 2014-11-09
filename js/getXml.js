@@ -1,3 +1,4 @@
+//Global code for function
 if (window.XMLHttpRequest)
   {// code for IE7+, Firefox, Chrome, Opera, Safari
   xmlhttp=new XMLHttpRequest();
@@ -11,6 +12,8 @@ xmlhttp.send();
 xmlDoc=xmlhttp.responseXML; 
 
 var x=xmlDoc.getElementsByTagName("CD");
+
+
 
 function getideFunction(tilz) 
 {
@@ -29,6 +32,8 @@ function getideFunction(tilz)
 
 v=xmlDoc.documentElement;
 y=v.childNodes;
+
+
 
 function gettagFunction() 
 {
