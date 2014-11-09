@@ -76,11 +76,11 @@ function oneElemetFunction(i)
   document.write("</div>");
 }
 
-function loopElemetinlistFunction() 
+function loopElementinlistFunction() 
 {
   for (i=0;i<x.length;i++)
     { 
-    document.write("<li class='productList'>");
+    document.write('<li class="productList">');
     document.write('<div id="productBox">');
       document.write('<div id="productPicture">');
         document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'" alt="'+i+'">');
@@ -101,7 +101,7 @@ function loopNumElementinlistFunction(k,j)
 {
   for (i=k;i<j;i++)
     { 
-    document.write("<li class='productList'>");
+    document.write('<li class="productList">');
     document.write('<div id="productBox">');
       document.write('<div id="productPicture">');
         document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
