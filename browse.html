@@ -40,6 +40,13 @@
 	<script src="js/classie.js"></script>
 	<script src="js/AnimOnScroll.js"></script>
 	<script>setGrid();</script>
-	<script>clickCookieLoad;</script>
+	<script>
+		$("ul").click(function(e) {
+		  var txt = $(e.target).attr('alt');
+		  document.cookie = txt;
+		  location.href = "http://hulqen.github.io/product.html";
+		  console.log(txt);
+		});
+	</script>
 	</body>
 </html>
