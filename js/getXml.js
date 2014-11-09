@@ -99,11 +99,11 @@ function loopElemetinlistFunction()
   }
 }
 
-function loopNumElemetinlistFunction(k,j) 
+function loopNumElementinlistFunction(k,j) 
 {
   for (i=k;i<j;i++)
     { 
-    document.write("<li>");
+    document.write("<li class='productList'>");
     document.write('<div id="productBox">');
       document.write('<div id="productPicture">');
         document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
