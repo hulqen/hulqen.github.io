@@ -46,7 +46,8 @@
 
 	<script>
 		$("ul").click(function(e) {
-		  var txt = $(this).find('img').attr('alt'); 
+		  var txt = $(e.target).attr('alt');
+		  
 		  console.log(txt);
 		});
 	</script>
