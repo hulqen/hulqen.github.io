@@ -114,7 +114,6 @@ function getDescription(i)
   document.write(x[i].getElementsByTagName("DESCRIPTION")[0].childNodes[0].nodeValue)
 }
 
-
 function searchXML(input)
 {
   size = input.length;
@@ -123,7 +122,6 @@ function searchXML(input)
     startString = xmlDoc.getElementsByTagName("TITLE")[i].childNodes[0].nodeValue.substring(0,size);
     if (startString.toLowerCase() == input.toLowerCase()){
         title=xmlDoc.getElementsByTagName("TITLE")[i].childNodes[0].nodeValue;
-        // console.log(title + " " + i);
         document.cookie = i;
         location.href = "product.html";
         break;
