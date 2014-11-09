@@ -45,7 +45,7 @@ function getideFunction2()
 	xmlDoc=xmlhttp.responseXML; 
 
 	// xmlDoc=loadXMLDoc("books.xml");
-	for (i=0;i<7; i++)
+	for (i=0;i<4; i++)
 	{
 
 	x=xmlDoc.getElementsByTagName("TAG")[i]
