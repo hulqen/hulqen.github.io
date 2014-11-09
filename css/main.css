@@ -97,10 +97,28 @@ body {
   margin-top: -10px;
 }
 
+.header-search-box {
+  padding-top: 5px;
+  margin-left: 25%;
+  float: left;
+  margin-bottom: -2px;
+}
+
+.header-search-field {
+  font-size: 30px;
+  padding: 8px 15px;
+  width: 400px;
+  background-color: lightgray;
+  opacity: 0.8;
+  border: 0px solid #dbdbdb;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
 .surprise {
   margin-top: 10px;
   margin-left: 50%;
-  left: -70px;
+  left: -80px;
   width: 145px;
   height: 30px;
   padding: 10px 5px 2px 10px;
@@ -113,11 +131,11 @@ body {
   font-family: 'Arial', serif;
   background-color: ForestGreen;
   border-radius: 20px;
-  tex
 }
 
 .surprise:hover {
-  opacity: 0.6;
+  /*opacity: 0.6;*/
+  -webkit-filter: brightness(120%); 
   cursor: pointer;
 }
 
