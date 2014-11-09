@@ -13,9 +13,7 @@ xmlDoc=xmlhttp.responseXML;
 
 var x=xmlDoc.getElementsByTagName("CD");
 
-
-
-function loopElemetInlist() 
+function loopElementInlist() 
 {
   for (i=0;i<x.length;i++)
     { 

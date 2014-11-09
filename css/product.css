@@ -9,6 +9,7 @@
 	width: 300px;
 	padding: 5px;
 	margin: 30px;
+	list-style-type: none;
 }
 
 #productPicture {
@@ -21,7 +22,3 @@
 	width: 100%;
 
 }
-
-#productPreview {
-}
-
