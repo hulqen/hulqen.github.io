@@ -36,14 +36,14 @@
 	list-style-type: none;	
 }
 
-section1 {
+#section1 {
     background-color:#eeeeee;
     
     width:40%;
     float:left;
     padding:10px;	      
 }
-section2 {
+#section2 {
     width:50%;
     float:left;
     padding:10px;	 	 
