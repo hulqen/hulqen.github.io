@@ -21,6 +21,6 @@
 	width: 100%;
 
 }
-#productList li {
+.productList li {
 	list-style-type: none;	
 }
