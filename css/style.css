@@ -13,6 +13,10 @@
 	/*border-collapse:collapse;*/
 }
 
+.construct li {
+	list-style: none;
+}
+
 .construct td {
 	vertical-align:top;
 	padding: 15px;
