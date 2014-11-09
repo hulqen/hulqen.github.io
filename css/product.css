@@ -39,7 +39,8 @@
 #productDescription{
 	width: auto;
 	margin:5px;	
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: 'Kreon', serif;
+	/*font-family:Arial, Helvetica, sans-serif;*/
 }
 
 #productList li {
