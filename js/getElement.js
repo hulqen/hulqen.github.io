@@ -54,7 +54,7 @@ function getideFunction2()
 	}
 }
 
-var numID;
+numID;
 
 function setId(num){
 
@@ -62,7 +62,7 @@ function setId(num){
 }
 
 function getId(){
-	
+
 	return numID;
 }
 // }
