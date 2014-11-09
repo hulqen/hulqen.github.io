@@ -32,16 +32,14 @@ y=v.childNodes;
 
 function gettagFunction() 
 {
-  
   for (i=0;i<v.length;i++)
   { 
     for (z=0;z<y[i].childNodes.length;z++)
-  {
+  	{
     document.write('<p>Found at = '+i+'</p>');
     document.write(y[i].childNodes[z].nodeName);
     }   
- }
-  
+  }
 }
 
 function allFunction() 
@@ -82,7 +80,7 @@ function loopElemetinlistFunction()
 {
   for (i=0;i<x.length;i++)
     { 
-    document.write("<li>");
+    document.write("<li class='productList'>");
     document.write('<div id="productBox">');
       document.write('<div id="productPicture">');
         document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'" alt="'+i+'">');
