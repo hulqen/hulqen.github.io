@@ -150,10 +150,13 @@ function searchXML(input)
 }
 function tagFunction(i)
 {
-	for(z=0;z<=x.length;z++)
-	{
-	document.write(x[i].getElementsByTagName("TAG")[0].childNodes[z].nodeValue);
-	}
+	response = req.responseXML.documentElement;
+	number = response.getElementsByTagName('antalPersoner')[i].firstChild.data;
+
+	for(i = 0; i < number; i++) {
+	name = response.getElementsByTagName('TAG')[i].firstChild.data;
+	//mat = response.getElementsByTagName('mat')[i].firstChild.data;
+}
 }
 
 
