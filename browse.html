@@ -16,6 +16,9 @@
     	<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<script src="js/modernizr.custom.js"></script>
 		<script src="js/getXml.js"></script>
+		<script src="js/getElement.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+
 	</head>
 	<body>
 	<div class="header">
@@ -40,7 +43,16 @@
 			minDuration : 0.4,
 			maxDuration : 0.7,
 			viewportFactor : 0.2
-		} );
+		});
+	</script>
+
+	<script>
+		$("ul").click(function(e) {
+		  var txt = $(e.target).attr('alt');
+		  document.cookie = txt;
+		  location.href = "http://hulqen.github.io/product.html";
+		  console.log(txt);
+		});
 	</script>
 	</body>
 </html>
