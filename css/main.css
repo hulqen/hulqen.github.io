@@ -39,6 +39,10 @@ body {
   /*background: -webkit-linear-gradient(grey, lightgray);*/
 }
 
+.avatar {
+  border-radius: 50px;
+}
+
 .login-text {
   position: relative;
   left: 50%;
