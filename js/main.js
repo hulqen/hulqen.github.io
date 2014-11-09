@@ -67,6 +67,28 @@ function getTag()
 }
 
 
+
+function minMaxList(k,j) 
+{
+  for (i=k;i<j;i++)
+    { 
+    document.write("<li class='productList'>");
+    document.write('<div id="productBox">');
+      document.write('<div id="productPicture">');
+        document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
+      document.write("</div>");
+
+      document.write('<div id="productDescription">');
+        document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"<br>");
+        document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue+"<br>");
+        document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+      document.write("</div>");
+    document.write("</div>");
+    document.write("</li>");
+  }
+}
+
+
 function getImg(i) 
 {
   document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
