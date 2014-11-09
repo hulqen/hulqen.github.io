@@ -60,7 +60,7 @@ a:active {
 	padding: 0 0 0.6em 0.1em;
 }
 
-.container > h1 {
+.container h3 {
 	font-size:45px;
 	font-weight:bold;	
 }
