@@ -19,8 +19,6 @@
 		<script src="js/getElement.js"></script>
 		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 
-
-
 	</head>
 	<body>
 	<div class="header">
@@ -51,7 +49,7 @@
 	<script>
 		$("ul").click(function(e) {
 		  var txt = $(e.target).attr('alt');
-		  setId(txt);
+		  document.cookie = txt;
 		  location.href = "http://hulqen.github.io/product.html";
 		  console.log(txt);
 		});
