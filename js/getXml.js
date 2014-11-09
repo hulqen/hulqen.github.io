@@ -151,10 +151,10 @@ function searchXML(input)
 function tagFunction(i)
 {
 	response = req.responseXML.documentElement;
-	number = response.getElementsByTagName('antalPersoner')[i].firstChild.data;
+	number = response.getElementsByTagName('TAG')[i].firstChild.data;
 
-	for(i = 0; i < number; i++) {
-	name = response.getElementsByTagName('TAG')[i].firstChild.data;
+	for(z = 0; z < number; z++) {
+	name = response.getElementsByTagName('TAG')[z].firstChild.data;
 	//mat = response.getElementsByTagName('mat')[i].firstChild.data;
 }
 }
