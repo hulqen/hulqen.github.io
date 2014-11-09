@@ -48,8 +48,25 @@ body {
   /*background: -webkit-linear-gradient(grey, lightgray);*/
 }
 
-.avatar {
+.avatar img{
+  max-height: 50px;
   border-radius: 50px;
+  margin-top: 5px;
+}
+
+.name {
+  float: right;
+  margin-top: 4px;
+}
+
+.logout {
+  text-transform: uppercase;
+  float: right;
+}
+
+.avatar {
+  float: right;
+  margin-right: 10px;
 }
 
 .login-text {
