@@ -16,36 +16,8 @@
     	<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<script src="js/modernizr.custom.js"></script>
 		<script src="js/getXml.js"></script>
+		<script src="js/getElement.js"></script>
 		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-
-
-
-	<script>
-
-
-	function setCookie(cname,cvalue,exdays) {
-	    var d = new Date();
-	    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-	    var expires = "expires=" + d.toGMTString();
-	    document.cookie = cname+"="+cvalue+"; "+expires;
-	}
-
-
-	function checkCookie() {
-	    var user=getCookie("username");
-	    if (user == "") {
-	       // user = prompt("Please enter your name:","");
-	       user = getId();
-	       if (user != "" && user != null) {
-	           setCookie("username", user, 30);
-	           oneElemetFunction(user);
-	       }
-	    }
-	}
-
-
-
-	</script>
 
 
 
@@ -80,7 +52,7 @@
 		$("ul").click(function(e) {
 		  var txt = $(e.target).attr('alt');
 		  var setId(txt);
-		  // location.href = "http://hulqen.github.io/product.html";
+		  ocation.href = "http://hulqen.github.io/product.html";
 		  console.log(txt);
 		});
 	</script>
