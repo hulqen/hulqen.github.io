@@ -44,7 +44,6 @@ function gettagFunction()
   
 }
 
-
 function allFunction() 
 {
   for (i=0;i<x.length;i++)
@@ -100,7 +99,6 @@ function loopElemetinlistFunction()
   }
 }
 
-
 function loopNumElemetinlistFunction(k,j) 
 {
   for (i=k;i<j;i++)
@@ -121,13 +119,10 @@ function loopNumElemetinlistFunction(k,j)
   }
 }
 
-
-
 function imgFunction(i) 
 {
   document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
 }
-
 
 function titelFunction(i) 
 {
@@ -167,12 +162,3 @@ function searchXML(input)
     }
   }
 }
- 
-
-
-
-
-
-
-
-
