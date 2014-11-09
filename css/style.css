@@ -39,15 +39,16 @@
 	background-color:#FFF;
 	width: 100%;
 	height: auto;
-	/*margin: 0px;*/
+	margin: 0px;
 	table-layout:fixed;
+	/*padding: 5px;*/
 }
 
 .constructFooter td{
 	border: 1px solid black;
 	background-color:#FFF;
 	height: auto;
-	/*margin: 0px;*/
+	margin: 0px;
 }
 
 #tags p{

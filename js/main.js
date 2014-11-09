@@ -19,7 +19,7 @@ function loopElementInlist()
     { 
     document.write("<li>");
     document.write('<div id="productBox">');
-      document.write('<div id="productPicture">');
+      document.write('<div id="thumbnailPicture">');
         document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'" alt="'+i+'">');
       document.write("</div>");
 
@@ -66,8 +66,6 @@ function getTag()
   }
 }
 
-
-
 function minMaxList() 
 {
   for (i=0;i<4;i++)
@@ -88,33 +86,27 @@ function minMaxList()
   }
 }
 
-
 function getImg(i) 
 {
   document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
 }
-
 
 function getTitel(i) 
 {
   document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
 }
 
-
 function getCreator(i) 
 {
   document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue);
 }
-
 
 function getPrice(i) 
 {
   document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
 }
 
-
 function getDescription(i)
 {
   document.write(x[i].getElementsByTagName("DESCRIPTION")[0].childNodes[0].nodeValue)
 }
-
