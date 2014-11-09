@@ -12,8 +12,6 @@ xmlDoc=xmlhttp.responseXML;
 
 var x=xmlDoc.getElementsByTagName("CD");
 
-
-
 function getideFunction(tilz) 
 {
   for (i=0;i<x.length;i++)
@@ -164,16 +162,7 @@ function searchXML(input)
     }
   }
 }
-function tagFunction(i)
-{
-	response = req.responseXML.documentElement;
-	number = response.getElementsByTagName('TAG')[i].firstChild.data;
-
-	for(z = 0; z < number; z++) {
-	name = response.getElementsByTagName('TAG')[z].firstChild.data;
-	//mat = response.getElementsByTagName('mat')[i].firstChild.data;
-}
-}
+ 
 
 
 

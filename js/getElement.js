@@ -32,7 +32,6 @@ function getideFunction()
 
 function getideFunction2() 
 {
-
 	if (window.XMLHttpRequest)
 	{// code for IE7+, Firefox, Chrome, Opera, Safari
 	xmlhttp=new XMLHttpRequest();
@@ -52,9 +51,6 @@ function getideFunction2()
 	x=xmlDoc.getElementsByTagName("TAG")[i]
 	y=x.childNodes[0];
 	document.write(y.nodeValue+"<br>");
-
-	
-
 	}
 }
 // }
