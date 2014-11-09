@@ -70,8 +70,7 @@ function getTag()
 
 function minMaxList() 
 {
-  for (i=0;i<4;i++)
-    { 
+  i=0;
     document.write("<li class='productList'>");
     document.write('<div id="productBox">');
       document.write('<div id="productPicture">');
@@ -85,7 +84,7 @@ function minMaxList()
       document.write("</div>");
     document.write("</div>");
     document.write("</li>");
-  }
+  
 }
 
 
