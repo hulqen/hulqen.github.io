@@ -21,10 +21,10 @@
 	width: auto;
 
 
-/*#thumbnailPicture {
+#thumbnailPicture {
 	height: auto;
-	width: auto;
-}*/
+	width: 100%;
+}
 
 #productDescription{
 	width: auto;	

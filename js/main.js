@@ -72,7 +72,7 @@ function minMaxList()
     { 
     document.write("<li class='productList'>");
     document.write('<div id="productBox">');
-      document.write('<div id="productPicture">');
+      document.write('<div id="thumbnailPicture">');
         document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
       document.write("</div>");
 
