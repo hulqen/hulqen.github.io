@@ -6,9 +6,9 @@
 	border-width: 1px;
 	border-color:#CCC;
 	height: auto;
-	width: auto;
+	width: 300px;
 	padding: 5px;
-	margin: 40px;
+	margin: 30px;
 }
 
 #productPicture {
@@ -22,14 +22,14 @@
 
 
 #thumbnailPicture {
-	height: auto;
-	width: 70%;
+	height: 100%;
+	width: 100%;
 }
 
 #productDescription{
 	width: auto;	
 }
 
-.productList li {
-	/*list-style: none;	*/
+#productList li {
+	list-style-type: none;	
 }
