@@ -68,21 +68,20 @@ function getTag()
 
 
 
-function minMaxList(k,j) 
+function minMaxList() 
 {
-  for (i=k;i<j;i++)
+  for (i=0;i<4;i++)
     { 
     document.write("<li class='productList'>");
     document.write('<div id="productBox">');
       document.write('<div id="productPicture">');
-        // document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
-        document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'" alt="'+i+'">');
+        document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
       document.write("</div>");
 
       document.write('<div id="productDescription">');
-        // document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"<br>");
-        // document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue+"<br>");
-        // document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+        document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"<br>");
+        document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue+"<br>");
+        document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
       document.write("</div>");
     document.write("</div>");
     document.write("</li>");
