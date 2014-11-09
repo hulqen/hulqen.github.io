@@ -53,6 +53,18 @@ function getideFunction2()
 	document.write(y.nodeValue+"<br>");
 	}
 }
+
+var numID;
+
+function setId(num){
+
+	numID=num;
+}
+
+function getId(){
+	
+	return numID;
+}
 // }
 
 // function getideFunction() 
