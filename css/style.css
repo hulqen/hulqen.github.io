@@ -191,7 +191,7 @@ label.radio:after {
     transform: rotate(-45deg);
 }
 
-input[type=radio]:checked + label:after {
+inputt[type=radio]:checked + label:after {
     opacity: 1;
 }
 
@@ -200,7 +200,7 @@ input[type=radio]:checked + label:after {
   opacity: 0.3;
 }*/
 
-/*input[type=text],input[type=password]{
+inputt[type=text],inputt[type=password]{
   width: 200px; 
   height: 39px; 
   -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
@@ -215,5 +215,5 @@ input[type=radio]:checked + label:after {
   margin-top: 13px; 
   padding-left: 10px;
 }
-*/
+
 
