@@ -110,3 +110,21 @@ function getDescription(i)
 {
   document.write(x[i].getElementsByTagName("DESCRIPTION")[0].childNodes[0].nodeValue)
 }
+
+
+function searchXML(input)
+{
+  size = input.length;
+  for (i=0;i<x.length;i++){
+    // startString = firstname.substring(0,size);
+    startString = xmlDoc.getElementsByTagName("TITLE")[i].childNodes[0].nodeValue.substring(0,size);
+    if (startString.toLowerCase() == input.toLowerCase()){
+        title=xmlDoc.getElementsByTagName("TITLE")[i].childNodes[0].nodeValue;
+        console.log(title + " " + i);
+        break;
+    } else {
+      text = "The contact does not exist.";
+      $("#search-result").html(text);
+    }
+  }
+}
