@@ -68,18 +68,20 @@ function getTag()
 
 function minMaxList() 
 {
+  var space;
   for (i=0;i<4;i++)
     { 
+    space = Math.floor((Math.random() * 10) + 1);
     document.write("<li>");
     document.write('<div id="productBoxThumb">');
       document.write('<div id="thumbnailPicture">');
-        document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
+        document.write('<img src="'+x[space].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
       document.write("</div>");
 
       document.write('<div id="productDescription">');
-        document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+" - ");
-        document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue+" $");
-        document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+        document.write(x[space].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+" - ");
+        document.write(x[space].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue+" $");
+        document.write(x[space].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
       document.write("</div>");
     document.write("</div>");
     document.write("</li>");
