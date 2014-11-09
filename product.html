@@ -28,23 +28,23 @@
         	<center>
             <div id="productPicture">
         	<script>
-        		imgFunction(document.cookie);
+        		getImg(document.cookie);
                 console.log(getId());
       		</script>
             </div>
             </center>
     	</td>
         <td colspan="2" class="construct">
-        	<center><h1><script>titelFunction(document.cookie)</script></h1></center>
+        	<center><h1><script>getTitel(document.cookie)</script></h1></center>
         	<br />
-        	<p><script>getDescription(document.cookie);</script></p>
+        	<p><script>getCreator(document.cookie);</script></p>
         	<br />
-        	<h2>Pris: <script>priceFunction(document.cookie)</script> Kr</h2>
+        	<h2>Pris: <script>getPrice(document.cookie)</script> Kr</h2>
         	<br />
         	<a href="#"><img src="images/buyButton.png" style="width:150px; height:44px" /></a>
         	<br />
             <br />
-        	<script>getideFunction2();</script>
+        	<script>getTag()</script>
     	</td>
 	</tr>
     <tr>
