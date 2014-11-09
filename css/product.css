@@ -36,6 +36,18 @@
 	list-style-type: none;	
 }
 
+section1 {
+    background-color:#eeeeee;
+    
+    width:40%;
+    float:left;
+    padding:10px;	      
+}
+section2 {
+    width:50%;
+    float:left;
+    padding:10px;	 	 
+}
 #thumbText h1{
 	font-size:large;
 }
