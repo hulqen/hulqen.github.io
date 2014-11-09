@@ -35,3 +35,7 @@
 #productList li {
 	list-style-type: none;	
 }
+
+#thumbText h1{
+	font-size:large;
+}
