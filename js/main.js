@@ -71,7 +71,7 @@ function minMaxList()
   for (i=0;i<4;i++)
     { 
     document.write("<li>");
-    document.write('<div id="productBox">');
+    document.write('<div id="productBoxThumb">');
       document.write('<div id="thumbnailPicture">');
         document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
       document.write("</div>");
