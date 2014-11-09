@@ -53,6 +53,7 @@ body {
   max-height: 50px;
   border-radius: 50px;
   margin-top: 5px;
+  margin-right: 5px;
 }
 
 .name {
@@ -96,6 +97,30 @@ body {
   margin-top: -10px;
 }
 
+.surprise {
+  margin-top: 10px;
+  margin-left: 50%;
+  left: -70px;
+  width: 145px;
+  height: 30px;
+  padding: 10px 5px 2px 10px;
+/*  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 10px;*/
+  position: relative;
+  font-size: 20px;
+  color: white;
+  font-family: 'Arial', serif;
+  background-color: ForestGreen;
+  border-radius: 20px;
+  tex
+}
+
+.surprise:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
 .wrapper {
   position: absolute;
   overflow: hidden;
@@ -104,15 +129,8 @@ body {
 }
 
 .bg-images {
-  /*-webkit-column-count: 5;*/
   -webkit-filter: blur(5px);
-  /*position: absolute;*/
-/*  min-height: 100%;
-  min-width: 150%;*/
   column-width: 200px;
-  /*column-gap: 0px;*/
-  /*width: 100%;*/
-  /*max-width: 1100px;*/
   margin: auto;
 }
 
