@@ -44,6 +44,7 @@ function allFunction()
         document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"<br>");
         document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue+"<br>");
         document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
+        document.write("<p>"+i+"</p>");
       document.write("</div>");
     document.write("</div>");
   }
