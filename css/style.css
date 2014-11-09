@@ -4,7 +4,7 @@
 
 /* Strukturen för hela sidan */
 .construct{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	background-color:#FFF;
 	width: 90%;
 	height: auto;
@@ -35,7 +35,7 @@
 
 /* Tabellen under produkten */
 .constructFooter {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	background-color:#FFF;
 	width: 100%;
 	height: auto;
