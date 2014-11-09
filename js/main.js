@@ -71,7 +71,7 @@ function minMaxList()
   var space;
   for (i=0;i<4;i++)
     { 
-    space = Math.floor((Math.random() * 10) + 1);
+    space = Math.floor((Math.random() * 26) + 1);
     document.write("<li>");
     document.write('<div id="productBoxThumb">');
       document.write('<div id="thumbnailPicture">');
