@@ -58,3 +58,34 @@
 #thumbText h1{
 	font-size:large;
 }
+
+.buy-button-link {
+	text-decoration: none
+}
+
+.buy-message {
+	float: left;
+	margin-right: -5px;
+	height: 30px;
+	width: 40px;
+	color: white;
+	font-size: 20px;
+	background-color: blue;
+	padding-left: 10px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	padding-top: 10px;
+}
+
+.buy-icon {
+	float: left;
+	width: 30px;
+	height: 28px;
+	color: white;
+	font-size: 20px;
+	background-color: blue;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	padding-top: 12px;
+	padding-left: 7px;
+}
