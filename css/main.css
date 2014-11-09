@@ -6,8 +6,13 @@ body {
   outline: 0;
 }
 
+.container h3 {
+  font-family: 'Kreon', serif;
+}
+
 .header {
   /*position: absolute;*/
+  font-family: 'Kreon', serif;
   height: 60px;
   background-color: white;
   border-bottom: 10px solid white;
