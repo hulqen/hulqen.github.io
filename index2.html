@@ -45,9 +45,10 @@
 	</script>
 
 	<script>
-	$( "ul" ).click(function() {
-	  location.href = 'http://hulqen.github.io/product.html#';
-	});
+		$("ul").click(function(e) {
+		  var txt = $(e.target).text();
+		  console.log(txt);
+		});
 	</script>
 	</body>
 </html>

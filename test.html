@@ -21,8 +21,9 @@
 
  
 <script>
-$( "p" ).click(function() {
-  location.href = 'http://hulqen.github.io/product.html#';
+$("p").click(function(e) {
+  var txt = $(e.target).text();
+  console.log(txt);
 });
 </script>
  
