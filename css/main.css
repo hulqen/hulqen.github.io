@@ -12,6 +12,7 @@ body {
 
 .container h3 {
   font-family: 'Kreon', serif;
+  text-transform: uppercase;
 }
 
 .header {
@@ -56,12 +57,15 @@ body {
 
 .name {
   float: right;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
 .logout {
+  font-family: arial;
+  font-size: 0.8em;
+  /*background-color: lightgray;*/
   text-transform: uppercase;
-  float: right;
+  /*float: right;*/
 }
 
 .avatar {
