@@ -36,6 +36,9 @@
 	list-style-type: none;	
 }
 
+#boldText {
+	font-weight: bold;
+}
 
 #thumbText h1{
 	font-size:large;
