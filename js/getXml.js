@@ -150,12 +150,10 @@ function searchXML(input)
 }
 function tagFunction(i)
 {
-	document.write('<div id="tags">');
-	for(var z=0;z<=x.length;z++)
+	for(z=0;z<=x.length;z++)
 	{
 	document.write(x[i].getElementsByTagName("TAG")[0].childNodes[z].nodeValue);
 	}
-	document.write("</div>");
 }
 
 
