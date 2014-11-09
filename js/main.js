@@ -88,6 +88,7 @@ function minMaxList()
 
 function getImg(i) 
 {
+  console.log(i);
   document.write('<img src="'+x[i].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
 }
 
