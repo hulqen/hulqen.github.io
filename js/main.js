@@ -75,7 +75,7 @@ function minMaxList()
     document.write("<li>");
     document.write('<div id="productBoxThumb">');
       document.write('<div id="thumbnailPicture">');
-        document.write('<img src="'+x[space].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'">');
+        document.write('<img src="'+x[space].getElementsByTagName("IMG")[0].childNodes[0].nodeValue+'" alt="'+space+'">');
       document.write("</div>");
 
       document.write('<div id="productDescription">');
