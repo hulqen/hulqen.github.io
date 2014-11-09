@@ -27,9 +27,7 @@ function loopElemetInlist()
 
       document.write('<div id="productDescription">');
         document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"<br>");
-        document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue+"<br>");
-        document.write(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
-        document.write("<p>"+i+"</p>");
+        document.write(x[i].getElementsByTagName("CREATOR")[0].childNodes[0].nodeValue);
       document.write("</div>");
     document.write("</div>");
     document.write("</li>");
@@ -46,13 +44,5 @@ function setGrid()
   });
 }
 
-function clickCookieLoad() 
-{
-  $("ul").click(function(e) {
-    var txt = $(e.target).attr('alt');
-    document.cookie = txt;
-    location.href = "http://hulqen.github.io/product.html";
-    console.log(txt);
-  });
-}
+
 
